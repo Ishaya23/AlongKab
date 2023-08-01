@@ -1,0 +1,110 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: brown;
+    text-align: center;
+    padding: 50px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.services {
+    text-align: center;
+    padding: 50px;
+}
+
+.service-card {
+    display: inline-block;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.service-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.about {
+    background-color: rgb(206, 223, 223);
+    text-align: center;
+    padding: 50px;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.main {
+    background-color: rgb(228, 238, 238);
+}
+h1 {
+    color: yellowgreen;
+}
+p1 {
+    font-weight: bold;
+    font-size: larger;
+}
